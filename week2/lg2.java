@@ -47,5 +47,8 @@ public class lg2 {
             number2 = scanner.nextInt();
         }
         while(number2<1||number2>10);
+        System.out.println(number2 + " is between 1 to 10");
+
+        // break and continue
     }
 }
