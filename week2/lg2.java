@@ -34,21 +34,27 @@ public class lg2 {
         // Excersise
         Scanner scanner = new Scanner (System.in);
 
-        int number = 2;
-        while (number > 10 || number < 1) {
-            System.out.println("Enter a number between 1 and 10: ");
-            number = scanner.nextInt();
-        }
-        System.out.println(number + " is between 1 to 10");
+        // int number = 2;
+        // while (number > 10 || number < 1) {
+        //     System.out.println("Enter a number between 1 and 10: ");
+        //     number = scanner.nextInt();
+        // }
+        // System.out.println(number + " is between 1 to 10");
 
-        int number2;
-        do {
-            System.out.println("Enter number2: ");
-            number2 = scanner.nextInt();
-        }
-        while(number2<1||number2>10);
-        System.out.println(number2 + " is between 1 to 10");
+        // int number2;
+        // do {
+        //     System.out.println("Enter number2: ");
+        //     number2 = scanner.nextInt();
+        // }
+        // while(number2<1||number2>10);
+        // System.out.println(number2 + " is between 1 to 10");
 
         // break and continue
+
+        for(int i=1; i<=10; i++) {
+            if (i%2 == 0)
+                continue;
+            System.out.println(i+" ");
+        }
     }
 }
