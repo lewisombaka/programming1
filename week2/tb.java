@@ -36,24 +36,44 @@ public class tb {
         //     System.out.printf("Their average is %1.3f.\n", average);
         // }
 
-        boolean start = true;
-        int count = 0;
-        int sum = 0;
+        // boolean start = false;
+        // int count = 0;
+        // int sum = 0;
 
-        while(start){
-            System.out.println("Enter number");
-            int number = scanner.nextInt(); 
-            if (number != 0){
-                count+=1;
-                sum+=number;
-            }
-            else{
-                start = false;
-            }
+        // while(start){
+        //     System.out.println("Enter number");
+        //     int number = scanner.nextInt(); 
+        //     if (number != 0){
+        //         count+=1;
+        //         sum+=number;
+        //     }
+        //     else{
+        //         start = false;
+        //     }
+        // }
+        // int average = sum/count;
+        // System.out.println("You've entered "+count+" numbers");
+        // System.out.println("The average of your numbers is "+average);
+
+
+        //game-playing program using a do-while
+        String begin;
+        do{
+            System.out.println("What is your name? ");
+            String name = scanner.nextLine();
+            System.out.println("Your name is "+name);
+            System.out.println(("Do you want to play again? "));
+            begin = scanner.nextLine();
         }
-        int average = sum/count;
-        System.out.println("You've entered "+count+" numbers");
-        System.out.println("The average of your numbers is "+average);
+        while(begin.equalsIgnoreCase("Yes"));//equalsIgnoreCase
+
+        // int count = 1;
+
+        // do {
+        //     System.out.println("Iteration: " + count);
+        //     count++;
+        // } while (count <= 5);
+
 
     }
 }
