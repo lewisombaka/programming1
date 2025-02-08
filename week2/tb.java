@@ -57,15 +57,15 @@ public class tb {
 
 
         //game-playing program using a do-while
-        String begin;
-        do{
-            System.out.println("What is your name? ");
-            String name = scanner.nextLine();
-            System.out.println("Your name is "+name);
-            System.out.println(("Do you want to play again? "));
-            begin = scanner.nextLine();
-        }
-        while(begin.equalsIgnoreCase("Yes"));//equalsIgnoreCase
+        // String begin;
+        // do{
+        //     System.out.println("What is your name? ");
+        //     String name = scanner.nextLine();
+        //     System.out.println("Your name is "+name);
+        //     System.out.println(("Do you want to play again? "));
+        //     begin = scanner.nextLine();
+        // }
+        // while(begin.equalsIgnoreCase("Yes"));//equalsIgnoreCase
 
         // int count = 1;
 
@@ -74,6 +74,20 @@ public class tb {
         //     count++;
         // } while (count <= 5);
 
+        //for statement
+
+        for (int years=0;years<5;years++){
+            System.out.println(years);
+        }
+
+        // There are 10 numbers to print.           
+        // Use a for loop to count 1, 2,            
+        // ..., 10.  The numbers we want            
+        // to print are 2*1, 2*2, ... 2*10.         
+   
+        for (int N = 1; N <= 20; N++) {              
+            System.out.println( 2*N );
+        }
 
     }
 }
