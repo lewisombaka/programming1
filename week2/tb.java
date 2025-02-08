@@ -98,11 +98,22 @@ public class tb {
     //     System.out.println( M );
     //  }
 
-        for(int l = 2; l<=20; l++){
-            if(l%2 == 0){
-                System.out.println(l);
-            }
+        // for(int l = 2; l<=20; l++){
+        //     if(l%2 == 0){
+        //         System.out.println(l);
+        //     }
+        // }
+
+        // for ( char ch = 'A';  ch <= 'Z';  ch++ ){
+        //     System.out.print(ch);
+        //     System.out.println();
+        // }
+        
+        //print out the alphabet
+        for(char ch = 'a'; ch <= 'z'; ch++){//you can also use uppercase characters
+            System.out.println(ch);
         }
 
+        
     }
 }
