@@ -76,27 +76,33 @@ public class tb {
 
         //for statement
 
-        for (int years=0;years<5;years++){
-            System.out.println(years);
-        }
+        // for (int years=0;years<5;years++){
+        //     System.out.println(years);
+        // }
 
         // There are 10 numbers to print.           
         // Use a for loop to count 1, 2,            
         // ..., 10.  The numbers we want            
         // to print are 2*1, 2*2, ... 2*10.         
    
-        for (int N = 1; N <= 20; N++) {              
-            System.out.println( 2*N );
-        }
+        // for (int N = 1; N <= 20; N++) {              
+        //     System.out.println( 2*N );
+        // }
 
         // Use a for loop that counts
        // 2, 4, ..., 20 directly by
        // adding 2 to N each time through
        // the loop.
        
-       for (int M = 2; M <= 20; M += 2) {
-        System.out.println( M );
-     }
+    //    for (int M = 2; M <= 20; M += 2) {
+    //     System.out.println( M );
+    //  }
+
+        for(int l = 2; l<=20; l++){
+            if(l%2 == 0){
+                System.out.println(l);
+            }
+        }
 
     }
 }
