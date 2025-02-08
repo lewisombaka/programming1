@@ -89,5 +89,14 @@ public class tb {
             System.out.println( 2*N );
         }
 
+        // Use a for loop that counts
+       // 2, 4, ..., 20 directly by
+       // adding 2 to N each time through
+       // the loop.
+       
+       for (int M = 2; M <= 20; M += 2) {
+        System.out.println( M );
+     }
+
     }
 }
