@@ -16,9 +16,9 @@ public class discussionforum {
         // do-while loop
         int choice;
         do {
-            System.out.println("Enter your guess between 0 to 9");
+            System.out.println("Enter any Number to start and 0 to exit");
             choice = scanner.nextInt();
         }
-        while (choice != 2);
+        while (choice != 0);
     }
 }
