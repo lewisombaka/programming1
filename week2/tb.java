@@ -123,33 +123,47 @@ public class tb {
         */
 
         // String str;  // Line of text entered by the user.
-        int count;   // Number of different letters found in str.
-        char letter; // A letter of the alphabet.
+        // int count;   // Number of different letters found in str.
+        // char letter; // A letter of the alphabet.
         
-        System.out.println("Please type in a line of text.");
-        // str = TextIO.getln(); String 
-        String str = scanner.nextLine();
+        // System.out.println("Please type in a line of text.");
+        // // str = TextIO.getln(); String 
+        // String str = scanner.nextLine();
         
-        str = str.toUpperCase();
+        // str = str.toUpperCase();
         
-        count = 0;
-        System.out.println("Your input contains the following letters:");
-        System.out.println();
-        System.out.print("   ");
-        for ( letter = 'A'; letter <= 'Z'; letter++ ) {
-            int i;  // Position of a character in str.
-            for ( i = 0; i < str.length(); i++ ) {
-                if ( letter == str.charAt(i) ) {
-                    System.out.print(letter);
-                    System.out.print(' ');
-                    count++;
-                    break;
-                }
-            }
+        // count = 0;
+        // System.out.println("Your input contains the following letters:");
+        // System.out.println();
+        // System.out.print("   ");
+        // for ( letter = 'A'; letter <= 'Z'; letter++ ) {
+        //     int i;  // Position of a character in str.
+        //     for ( i = 0; i < str.length(); i++ ) {
+        //         if ( letter == str.charAt(i) ) {
+        //             System.out.print(letter);
+        //             System.out.print(' ');
+        //             count++;
+        //             break;
+        //         }
+        //     }
+        // }
+        
+        // System.out.println();
+        // System.out.println();
+        // System.out.println("There were " + count + " different letters.");
+    // }
+
+        //Try..Catch
+        int a = 9;
+        String b = "abs";
+
+        try {
+            int convertedNumber = Integer.parseInt(b);
+            System.out.println(a*convertedNumber);
         }
-        
-        System.out.println();
-        System.out.println();
-        System.out.println("There were " + count + " different letters.");
+        catch(NumberFormatException e){
+            System.out.println("That operation is impossible");
+        }
     }
+
 }
