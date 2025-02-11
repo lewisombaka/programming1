@@ -22,23 +22,33 @@ public class discussionforum {
         // while (choice != 0);
 
         // for loop
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("Iteration "+i);
-        }
+        // for (int i = 1; i <= 5; i++) {
+        //     System.out.println("Iteration "+i);
+        // }
 
-        System.out.println("Enter Score ");
-        int score = scanner.nextInt();
-        String grade = "";
-        if (score >= 90){
-            grade = "A";
-        }
-        else if (score >= 80) {
-            grade = "B";
-        }
-        else {
-            grade = "C";
-        }
+        // System.out.println("Enter Score ");
+        // int score = scanner.nextInt();
+        // String grade = "";
+        // if (score >= 90){
+        //     grade = "A";
+        // }
+        // else if (score >= 80) {
+        //     grade = "B";
+        // }
+        // else {
+        //     grade = "C";
+        // }
 
-        System.out.println("Your grade is "+ grade);
+        // System.out.println("Your grade is "+ grade);
+
+        System.out.println("enter 1 to start game and 0 to exit");
+        int option = scanner.nextInt();
+
+        switch (option) {
+            case 1: System.out.println("Start Game"); break;
+            case 0: System.out.println("Exit"); break;
+            default: System.out.println("Invalid Choice");
+        }
+        
     }
 }
