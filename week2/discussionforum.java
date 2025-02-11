@@ -20,5 +20,10 @@ public class discussionforum {
             choice = scanner.nextInt();
         }
         while (choice != 0);
+
+        // for loop
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteration "+i);
+        }
     }
 }
