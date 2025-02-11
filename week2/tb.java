@@ -154,16 +154,41 @@ public class tb {
     // }
 
         //Try..Catch
-        int a = 9;
-        String b = "abs";
+        // int a = 9;
+        // String b = "abs";
 
-        try {
-            int convertedNumber = Integer.parseInt(b);
-            System.out.println(a*convertedNumber);
-        }
-        catch(NumberFormatException e){
-            System.out.println("That operation is impossible");
-        }
+        // try {
+        //     int convertedNumber = Integer.parseInt(b);
+        //     System.out.println(a*convertedNumber);
+        // }
+        // catch(NumberFormatException e){
+        //     System.out.println("That operation is impossible");
+        // }
+
+        // double x;
+        // String str = "5";
+        // try{
+        //     x = Double.parseDouble(str);
+        //     System.out.println("The number is "+ x);
+        // }
+        // catch(NumberFormatException e){
+        //     System.out.println("Not a legal number");
+        // }
+
+        // System.out.println("Enter a number");
+        // String first = scanner.nextLine();
+
+        // System.out.println("Enter second number");
+        // String second = scanner.nextLine();
+
+        // try{
+        //     int a = Integer.parseInt(first);
+        //     int b = Integer.parseInt(second);
+        //     System.out.println("The answer is "+(a+b));
+        // }
+        // catch (NumberFormatException e){
+        //     System.out.println("The math cannot be done");
+        // }
     }
 
 }
