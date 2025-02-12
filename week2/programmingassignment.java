@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class programmingassignment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Map<String, Integer> books = new HashMap<>();  // Library book storage
-        Map<String, Integer> borrowedBooks = new HashMap<>(); // Tracks borrowed books
+        Map<String, Integer> books = new HashMap<>();  
+        Map<String, Integer> borrowedBooks = new HashMap<>(); 
 
         System.out.println("Welcome to our Library \nWhat is your name: ");
         String jina = scanner.nextLine();
