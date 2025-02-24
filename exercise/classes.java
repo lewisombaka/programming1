@@ -10,5 +10,9 @@ public class classes {
         p1.name = "Pikachu";
 
         System.out.println(p1.name+" "+p1.level);
+
+        pokemon p2 = new pokemon();
+        p2.name = "eeevu";
+        p2.attack();
     }
 }
