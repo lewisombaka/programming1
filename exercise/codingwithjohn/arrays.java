@@ -6,6 +6,30 @@ public class arrays {
         // single-dimensional arrays in java
         // Null - value of an object that references nothing String text;
         //Arrays is a collection if variables of the same data type, array size is fixed
+        // create array - datatype[] arrayName;
+        int [] numbers = new int [5]; // {0,0,0,0,0}
+
+        //Default Values
+        // numeric data types - 0
+        // char data types -\000(after the \ there's a u)
+        // boolean data types - false
+
+        //Access array elements uses brackets and indices
+        numbers[0] = 5; // {5,0,0,0,0}
+
+        double[] numbers2 = {1.9, 3.1, 2.7, 9.6, 8.3};
+
+        // numbers and numbers2 are the same, difference is that they have been initialized differently
+
+        //printing arrays
+        // System.out.println(numbers2); // this will print array address
+
+        for(int i = 0; i<numbers2.length; i++){
+            System.out.println(numbers2[i]); // this wi print the items in the array
+        }
+
+
+
 
     }
 }
