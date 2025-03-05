@@ -39,7 +39,37 @@ public class arrays {
         //passing arrays to methods
         int[] numbers3 = {0,1};
 
+        // array store multiple values in a single variable
+
+        String[] car = {"camero"};
+        // System.out.println(car);
+
+        String [] cars2 = new String[8];
+        cars2 [6] = "BMW";
+        for(int i = 0; i< cars2.length; i++){
+            System.out.println(cars2[i]);
+        }
+
+        // 2d arrays
+        // array of an arrays
+        String[][] houses = new String[3][3];
+
+        houses[0][0] = "Penthouse";
+        houses[0][1] = "Manyatta";
+        houses[0][2] = "Mud";
+        houses[1][0] = "Ploti";
+        houses[1][1] = "Pipu";
+        houses[1][2] = "Utawala";
+        houses[2][0] = "ByPass";
+        houses[2][1] = "Njiru";
+        houses[2][2] = "Chokaa";
         
+        for (int i = 0; i<houses.length; i++){
+            System.out.println();
+            for (int j=0;j<houses[i].length; j++){
+                System.out.println(houses[i][j]+"");
+            }
+        }
         
     }
 }
