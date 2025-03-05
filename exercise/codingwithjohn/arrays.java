@@ -25,11 +25,21 @@ public class arrays {
         // System.out.println(numbers2); // this will print array address
 
         for(int i = 0; i<numbers2.length; i++){
-            System.out.println(numbers2[i]); // this wi print the items in the array
+            // System.out.println(numbers2[i]); // this will print the items in the array
         }
 
+        // single dimensional array part2
+        // anonymous array
+        // new int[] {1,2,3,4};
 
+        // Exceeding Array Bounds
+        char[] chars = {'a', 'b', 'c', 'd'};
+        // System.out.println(chars[-1]);
 
+        //passing arrays to methods
+        int[] numbers3 = {0,1};
 
+        
+        
     }
 }
