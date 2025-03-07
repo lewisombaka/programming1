@@ -71,5 +71,13 @@ public class arrays {
             }
         }
         
+        //2d arrays
+        int[][] integers = {{3,5,7}, {10,2,9}};
+        for (int i = 0; i < integers[0].length; i++){
+            // System.out.println();
+            for (int j = 0; j <integers.length; j++){
+                System.out.println(integers[i][j]);
+            }
+        }
     }
 }
