@@ -1,5 +1,7 @@
 package exercise.codingwithjohn;
 
+import java.util.Arrays;
+
 public class arrays {
     public static void main(String[] args) {
         // ArraysVsArrayList
@@ -33,15 +35,15 @@ public class arrays {
         // new int[] {1,2,3,4};
 
         // Exceeding Array Bounds
-        char[] chars = {'a', 'b', 'c', 'd'};
+        // char[] chars = {'a', 'b', 'c', 'd'};
         // System.out.println(chars[-1]);
 
         //passing arrays to methods
-        int[] numbers3 = {0,1};
+        // int[] numbers3 = {0,1};
 
         // array store multiple values in a single variable
 
-        String[] car = {"camero"};
+        // String[] car = {"camero"};
         // System.out.println(car);
 
         String [] cars2 = new String[8];
@@ -98,5 +100,7 @@ public class arrays {
             System.out.println();
             };
         };
+        // deep to string method
+        System.out.println(Arrays.deepToString(coins));
     }
 }
