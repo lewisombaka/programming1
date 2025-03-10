@@ -130,23 +130,54 @@ public class arrays {
         // ArrayList <Integer> integers; // null
         // integers = new ArrayList<>();
 
-        ArrayList <Integer> integers = new ArrayList<>();
-        integers.add(9);
-        integers.add(0,2); // specifying index where item should be added.
+        // ArrayList <Integer> integers = new ArrayList<>();
+        // integers.add(9);
+        // integers.add(0,2); // specifying index where item should be added.
 
-        System.out.println(integers.get(0));// getting an item
+        // System.out.println(integers.get(0));// getting an item
 
-        integers.set(0,9); // setting an item to a particular index
+        // integers.set(0,9); // setting an item to a particular index
 
-        integers.remove(0); // removing an item by index
+        // integers.remove(0); // removing an item by index
 
-        integers.remove(9); // removing by value
+        // integers.remove(9); // removing by value
 
-        integers.clear(); // remove evrything
+        // integers.clear(); // remove evrything
 
-        integers.size(); // getting the size of the arraylist
+        // integers.size(); // getting the size of the arraylist
 
         // array list has a dynamic size, can be changed
+
+        // array vs arraylists
+
+        String [] friendsarray = {"Ken", "Tom", "Mike"};
+        ArrayList <String> friendsarraylist = new ArrayList<>(Arrays.asList("Chapo", "Keen", "Dane"));
+
+        System.out.println(friendsarray[1]);
+        System.out.println(friendsarraylist.get(1));
+
+        System.out.println(friendsarray.length);
+        System.out.println(friendsarraylist.size());
+
+        // Arrays are static
+        // ArrayList are dynamic
+
+        friendsarraylist.add("Mitch");
+        System.out.println(friendsarraylist.get(3));
+
+        // set an element
+        friendsarray[0] = "Tom";
+        friendsarraylist.set(0,"Keen");
+
+        // remove an element]
+        // arrays can't be removed
+
+        friendsarraylist.remove(0); // you can specify the index or the exact item to be removed
+
+        // printing
+
+        System.out.println(friendsarray);
+        System.out.println(friendsarraylist);
 
         
     }
