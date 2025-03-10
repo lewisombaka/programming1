@@ -72,12 +72,31 @@ public class arrays {
         }
         
         //2d arrays
-        int[][] integers = {{3,5,7}, {10,2,9}};
-        for (int i = 0; i < integers[0].length; i++){
+        // int[][] integers = {{3,5,7}, {10,2,9}};
+        // for (int i = 0; i < integers[0].length; i++){
             // System.out.println();
-            for (int j = 0; j <integers.length; j++){
-                System.out.println(integers[i][j]);
-            }
-        }
+            // for (int j = 0; j <integers.length; j++){
+                // System.out.println(integers[i][j]);
+            // }
+        // }
+        // int [][] integers = {{5,5,7},{2,9,8}};
+        // for (int i = 0; i < 2; i++){
+        //     for (int j = 0; j < 3; j++){
+        //         System.out.println(integers[i][j]);
+
+        //     System.out.println();
+        //     };
+        // };
+
+        int [][] coins = {
+            {3,5,7},
+            {10,2,9}
+        };
+        for (int j = 0; j < 3; j++){
+            for (int i = 0; i < 2; i++){
+                System.out.println(coins[i][j]+"");
+            System.out.println();
+            };
+        };
     }
 }
