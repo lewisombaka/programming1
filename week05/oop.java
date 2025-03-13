@@ -12,5 +12,21 @@ public class oop {
 
         System.out.println(u.name);
         System.out.println(u2.name);
+
+        cars vehicle = new cars();
+        vehicle.Model = "Tesla";
+        vehicle.Engine = "Swooosh";
+
+        System.out.println(vehicle.Model);
+        // class attributes and  methods
+
+        // attributes are variables inside a class
+    
+        // methods are functionalities/behaviors of the class objects
+
+        vehicle.start(); // instance of cars class // instance methods
+
+        // classes and objects
     }
+
 }
