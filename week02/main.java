@@ -1,4 +1,4 @@
-package week2;  // Add this if your file is inside the "week2" folder
+package week02;  // Add this if your file is inside the "week2" folder
 
 public class main {
     public static void main(String[] args) {
