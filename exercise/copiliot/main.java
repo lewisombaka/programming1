@@ -1,10 +1,12 @@
 import java.util.*;
 
 class Fruit {
-    String name;
-    String color;
-    String taste;
-    int weight;
+    // private attributes
+
+    private String name;
+    private String color;
+    private String taste;
+    private int weight;
 
     // parameterized constructors
 
@@ -15,8 +17,43 @@ class Fruit {
         this.taste = taste;
     }
 
+    // Getters (to retrieve values)
+    public String getName(){
+        return name;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public String getTaste(){
+        return taste;
+    }
+
+    public int getWeight(){
+        return weight;
+    }
+
+    // setters (to update values)
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setColor(String color){
+        this.color = color;
+    }
+
+    public void setTaste(String taste){
+        this.taste = taste;
+    }
+
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
+
     // method
-    
+
     void displayInfo(){
         System.out.println("Fruit name: " + name);
         System.out.println("Fruit color: " + color);
@@ -56,6 +93,12 @@ public class main {
         fruit1.displayInfo();
 
         System.out.println();
+
+        // modigying attributes using setters
+        fruit1.setName("Green Apple");
+        fruit1.setColor("Green");
+        fruit1.setTaste("Sour");
+        fruit1.setWeight(140);
 
         Caar car1 = new Caar("Mercedes","GLE", 5.1, 2025);
 
